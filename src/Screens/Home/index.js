@@ -7,6 +7,7 @@ import Header from '../../components/Header';
 import MovieCard from '../../components/MovieCard';
 import styles from './styles';
 import { STRING } from '../../utils/String';
+import { COLORS } from '../../utils/Colors';
 
 /**
  * 
@@ -65,7 +66,6 @@ const HomePage = () => {
     const getMovieList = (page) => {
         const data = getData(page);
         const movieArray = data['content-items'].content;
-        console.log()
         if(page === 1 ){
             setMovieData({
                 hasMore: data['page-size-requested'] === data['page-size-returned'],
@@ -152,7 +152,7 @@ const HomePage = () => {
     return (
         <SafeAreaView style={styles.container}>
             <View style={styles.mainView}>
-                <StatusBar barStyle={'light-content'}  backgroundColor="black"/>
+                <StatusBar barStyle={'light-content'}  backgroundColor={COLORS.black}/>
                 <Header
                     setSearch={setSearch}
                     search={search}

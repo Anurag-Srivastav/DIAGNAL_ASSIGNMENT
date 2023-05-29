@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
 import { normalize, vh, vw } from '../../utils/dimensions';
+import { COLORS } from '../../utils/Colors';
 
 /**
  * Styles for the Home Screen
@@ -16,7 +17,7 @@ export default StyleSheet.create({
     },
     emptyText : {
         fontWeight: '600', 
-        color: 'white', 
+        color: COLORS.white, 
         fontSize: 20, 
         marginVertical: 10, 
         textAlign: 'center', 
@@ -24,7 +25,7 @@ export default StyleSheet.create({
     },
     container : {
         flex: 1, 
-        backgroundColor: 'black',
+        backgroundColor: COLORS.black,
     },
     mainView :{
         flex: 1,

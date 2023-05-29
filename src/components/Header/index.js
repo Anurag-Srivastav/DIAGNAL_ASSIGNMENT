@@ -3,6 +3,7 @@ import { View, Image, TextInput, TouchableOpacity, Keyboard, ImageBackground } f
 import { ICON } from '../../assets';
 import styles from './styles';
 import { STRING } from '../../utils/String';
+import { COLORS } from '../../utils/Colors';
 
 /**
  * 
@@ -42,12 +43,12 @@ const Header = ({
                     </TouchableOpacity>
                     <TextInput
                         ref={searchRef}
-                        selectionColor={'white'}
+                        selectionColor={COLORS.white}
                         value={search}
                         placeholder={STRING.placeHolder}
                         onChangeText={setSearch}
                         style={styles.textInput}
-                        placeholderTextColor={'white'}
+                        placeholderTextColor={COLORS.white}
                     />
                 </View>
                 <TouchableOpacity onPress={focusTextInput}> 

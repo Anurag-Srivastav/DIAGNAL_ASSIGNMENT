@@ -1,6 +1,7 @@
 import { Dimensions, StyleSheet } from 'react-native';
 import { normalize, vh, vw } from '../../utils/dimensions';
 import { FONTS } from '../../assets/Fonts';
+import { COLORS } from '../../utils/Colors';
 
 /**
  * Styles for the Movie Card
@@ -17,7 +18,7 @@ export default StyleSheet.create({
     marginBottom: vh(4)
   },
   title :{
-    color: 'white', 
+    color: COLORS.white, 
     fontSize: normalize(14), 
     maxWidth: vw(110) ,
     fontFamily : FONTS.TitilliumLight

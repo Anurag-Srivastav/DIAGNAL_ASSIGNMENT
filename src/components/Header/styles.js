@@ -1,6 +1,7 @@
 import { StyleSheet } from 'react-native';
 import { normalize, vh, vw } from '../../utils/dimensions';
 import { FONTS } from '../../assets/Fonts';
+import { COLORS } from '../../utils/Colors';
 
 /**
  * Styles for the Home Header
@@ -22,7 +23,7 @@ export default StyleSheet.create({
         marginTop : vw(-20)
     },
     textInput : {
-        color: 'white', 
+        color: COLORS.white, 
         fontSize: normalize(22), 
         marginLeft: vw(14),
         width: '80%',
