@@ -5,9 +5,8 @@
 3. after above step run command **npm run pods** or **npm run pods_m1** if using m1 macbook.
 4. after pods are installed open **DiagnalWorkShop.xcworkspace** file from ios folder, it will open project in **XCODE**.
 5. in terminal run command **npm run start** to start the packager for react native.
-6. from xcode select any environment like "dev", "preprod" etc. and then select any simulator and press on run button to run the project.
-7. to run the project in **Android** run a emulator from android studio, and then run command **npm run android**.
-8. to create an apk for **Android** , run command **npm run build**
+6. to run the project in **Android** run a emulator from android studio, and then run command **npm run android**.
+7. to create an apk for **Android** , run command **npm run build**
 
 ###### If getting any issue in react native environment or IOS or Android setup please follow below react native doc.
 
