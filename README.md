@@ -13,13 +13,12 @@
 
 [React Native Doc](https://reactnative.dev/docs/environment-setup)
 
-## Happy Coding...
+### Release Notes
 
+1. Lazy loading has been implemented in the application and it loads one json at a time.
+2. The search icon is pressable and it focuses the keyboard on tap.
+3. The back icon when pressed empties the search box and restores the app to the initial state.
+4. Empty Screen displaying a message of no movies found has been implemented in case of of no results for a search query.
 
-## Release Notes
-
-## 1. Lazy loading has been implemented in the application and it loads one json at a time.
-## 2. The search icon is pressable and it focuses the keyboard on tap.
-## 3. The back icon when pressed empties the search box and restores the app to the initial state.
-## 4. Empty Screen displaying a message of no movies found has been implemented in case of of no results for a search query.
+### Happy Coding...
 
